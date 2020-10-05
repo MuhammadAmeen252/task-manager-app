@@ -14,7 +14,7 @@ const userRouter=require('./routers/user')
 const taskRouter=require('./routers/task')
 
 //if app is deployed on site we will get the port using process.env.port
-const port=process.env.port || 3000
+const port=process.env.PORT || 3000
 
 //configuring express to automatically parse the incoming json from HTTP request for us
 //RESUORCE CREATION ENDPOINTS
