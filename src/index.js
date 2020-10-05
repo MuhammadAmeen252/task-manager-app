@@ -26,7 +26,7 @@ app.use(taskRouter)
 // server using a pre defined operation. we are able to perform some predefined operation on the db
 
 
-app.listen(port,()=>{
+app.listen(port,'0.0.0.0',()=>{
      console.log('server is up on port '+port )
 })
 
