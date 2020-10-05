@@ -30,6 +30,6 @@ app.listen(port,'0.0.0.0',()=>{
      console.log('server is up on port '+port )
 })
 
-//set environment variables by using this
+///set environment variables by using this
 //as we need it locally on our machine not on heroku so we use --save -dev
 //npm i env-cmd --save-dev
