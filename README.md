@@ -1,4 +1,4 @@
-# task-manager-app
+# task-manager-app-api
 This is a task managing app made for managing your daily tasks. The technologies user are express, node ,mongoDB. 
 Tools used are postman, robo3T, mongoDB compass
 you can run it in postman the application is deployed on the link 
